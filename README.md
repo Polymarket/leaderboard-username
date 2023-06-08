@@ -1,5 +1,6 @@
-# Leaderboard Bot Username Examples
+# Polymarket Leaderboard Bot Username Examples
 
-Repo with scripts showing how to sign a `UsernameUpdate` payload for the leaderboard API
+Repo showing how to sign a `UsernameUpdate` EIP712 payload for the Polymarket leaderboard API
+
 
 See [main](./src/main.ts) for details

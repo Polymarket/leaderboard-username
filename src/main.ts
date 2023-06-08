@@ -1,6 +1,12 @@
 import axios from "axios";
+import { resolve } from "path";
 import { ethers, Wallet } from "ethers";
+import { config as dotenvConfig } from "dotenv";
 import { UsernameUpdatePayload } from "./model";
+
+
+dotenvConfig({ path: resolve(__dirname, "../.env") });
+
 
 const pk = process.env.PK || "";
 const wallet = new ethers.Wallet(pk);
