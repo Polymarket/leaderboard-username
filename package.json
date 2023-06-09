@@ -11,6 +11,10 @@
         "blockchain",
         "ethereum"
     ],
+    "scripts": {
+        "sign": "ts-node src/sign.ts",
+        "signAndSend": "ts-node src/signAndSend.ts"
+    },
     "license": "MIT",
     "devDependencies": {
         "@commitlint/cli": "^9.1.2",
@@ -23,6 +27,8 @@
         "@ethersproject/providers": "5.4.2",
         "@ethersproject/random": "^5.4.0",
         "@ethersproject/transactions": "^5.4.0",
+        "@types/yargs": "16.0.4",
+        "axios": "^1.4.0",
         "commitizen": "^4.2.1",
         "cz-conventional-changelog": "^3.3.0",
         "dotenv": "^8.2.0",
@@ -39,9 +45,6 @@
         "ts-node": "^9.1.1",
         "typechain": "^4.0.2",
         "typescript": "^3.9.7",
-        "yargs": "^17.0.1"
-    },
-    "dependencies": {
-        "axios": "^1.4.0"
+        "yargs": "^17.7.2"
     }
 }
