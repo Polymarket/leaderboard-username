@@ -6,7 +6,7 @@ Example repo showing how to update Polymarket leaderboard usernames, for program
 
 - Install dependencies with [yarn](https://yarnpkg.com/): yarn install
 
-- Create a .env file with a a private key(PK env variable) and the leaderboard API URL(see .env.example)
+- Create a .env file with a private key(PK env variable) and the leaderboard API URL(see .env.example)
 
 - Run `yarn signAndSend --name YOUR_USERNAME` to create and sign a username update payload and send it to the leaderboard API
 
